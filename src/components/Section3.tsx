@@ -35,12 +35,14 @@ const Section3 = () => {
           <div className="mx-auto text-gray-600 text-[13px] sm:text-lg md:text-[20px] leading-relaxed mt-4">
           Discover how leading attorneys are transforming personal injury representation through dedication, innovation, and client-centered strategies.
           </div>
-          <button
+          <div className="pt-16">
+            <button
               type="button"
-              className=" bg-[#834CFF] hover:bg-[#6E3EDB] text-white font-medium py-3 px-0 sm:px-8 rounded-full text-[12px] sm:text-lg shadow-lg hover:shadow-xl transition duration-200 ease-in-out transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 w-[30%] my-16"
+              className=" bg-[#834CFF] hover:bg-[#6E3EDB] text-white font-medium py-3 px-0 sm:px-8 rounded-full text-[12px] sm:text-lg shadow-lg hover:shadow-xl transition duration-200 ease-in-out transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75 w-[30%] "
             >
               Register Now
             </button>
+            </div>
         </div>
         
         
