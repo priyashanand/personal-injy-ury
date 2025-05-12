@@ -7,18 +7,18 @@ const Section9 = () => {
       </div>
 
       {/* Mobile: Split message */}
-      <div className="block sm:hidden text-white text-center mt-4 text-base">
+      <div className="block sm:hidden text-[#A7A7A7] text-center mt-4 text-base">
         Experience the future of client intake with
       </div>
-      <div className="block sm:hidden text-white text-center mt-1 text-base ">
+      <div className="block sm:hidden text-[#A7A7A7] text-center mt-1 text-base ">
         CasePilot without any delay now
       </div>
 
       {/* Desktop: Single-line version */}
-      <div className="hidden sm:block text-white text-center mt-12 text-lg">
+      <div className="hidden sm:block text-[#A7A7A7] text-center mt-12 text-lg">
         Firms using our platform reduce preparation time by 70% 
       </div>
-      <div className="hidden sm:block text-white text-center text-lg">
+      <div className="hidden sm:block text-[#A7A7A7] text-center text-lg">
       and close cases faster—without hiring extra staff.
       </div>
 

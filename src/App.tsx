@@ -10,6 +10,7 @@ import Section8 from './components/Section8';
 import Section9 from './components/Section9';
 import Footer from './components/Footer';
 import InfiniteSlider from './components/InfiniteSlider'
+import MobileSlider from './components/MobileSlider'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Section2 />
         <Section3 />
         <Section4 />
+        <MobileSlider/>
         <Section5 />
         <Section6 />
         <Section7 />

@@ -24,7 +24,8 @@ const Section5 = () => {
 
   return (
     <div className="px-6 md:px-20 lg:px-40 py-12 bg-white">
-      <div className="flex flex-col justify-between lg:flex-row gap-10 lg:gap-20 p-8 rounded-2xl">
+      <div className="hidden sm:flex flex-col justify-between lg:flex-row gap-10 lg:gap-20 p-8 rounded-2xl">
+        
         {/* Left Image */}
         <img
           src="/assets/section4img7.png"
@@ -41,6 +42,36 @@ const Section5 = () => {
                 <div className="text-[22px] font-semibold text-[#05011F] mb-5">{feature.title}</div>
                 <div className="text-[16px] text-[#828282] mt-1">{feature.description}</div>
               </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+
+
+      {/* mobile view */}
+      <div className="sm:hidden flex flex-col justify-center items-center lg:flex-row gap-10 lg:gap-20 rounded-2xl">
+      <div>
+          How do we work?
+        </div>
+        {/* Left Image */}
+        <img
+          src="/assets/section4img7.png"
+          alt="Illustration"
+          className="w-full"
+        />
+
+        {/* Feature List */}
+        <div className="flex flex-col justify-center items-center space-y-8 w-full py-4">
+          {features.map((feature, idx) => (
+            <div key={idx} className="flex flex-col items-center justify-center gap-2 ">
+              <div className=" flex items-center">
+                <img src={feature.icon} alt="" className="h-20 mt-1 p-2" />
+
+                <div className="text-[22px] font-semibold text-[#05011F]">{feature.title}</div>
+              </div>
+              <div className="text-[16px] text-[#828282] mt-1 flex ml-3">{feature.description}</div>
+
             </div>
           ))}
         </div>

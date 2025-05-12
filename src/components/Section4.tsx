@@ -3,7 +3,7 @@ import React from 'react';
 
 const Section4: React.FC = () => {
   return (
-    <section className="bg-gray-50 py-16 px-32">
+    <section className="hidden sm:block bg-gray-50 py-16 px-32">
       <div className=" mx-auto px-4">
         {/* Title */}
         <div className=" flex flex-col items-left pb-20">
