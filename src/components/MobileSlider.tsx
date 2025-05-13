@@ -13,7 +13,7 @@ const cards = [
     desc: "Streamline your intake process with AI, efficiently gathering case details, screen leads, and directing them to your team."
   },
   {
-    imgMain: "/assets/section4img6.png",
+    imgMain: "/assets/section4img2.png",
     title: "Instant Followup",
     desc: "Switch on smart workflows to handle tasks, follow-ups, document requests, and lien coordination—automatically."
   }
@@ -74,12 +74,12 @@ const Section4 = () => {
               {cards.map((card, index) => (
                 <div key={index} className="min-w-full px-2">
                   <div className="bg-white border rounded-3xl shadow-md p-6">
-                    <div className="p-5">
+                    <div className="p-5 bg-[#D1DDFF] rounded-xl flex items-center justify-center ">
 
-                    <img src={card.imgMain} alt="" className="h-auto w-full object-contain mb-6" />
+                    <img src={card.imgMain} alt="" className="h-auto w-full object-contain" />
                     </div>
                     {/* <img src="/assets/section4img6.png" alt="" className="h-16 object-contain mb-6" /> */}
-                    <div className="text-xl font-semibold mb-4">{card.title}</div>
+                    <div className="text-xl font-semibold my-6">{card.title}</div>
                     <div className="text-gray-700 text-sm">{card.desc}</div>
                   </div>
                 </div>

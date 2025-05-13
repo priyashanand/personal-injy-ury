@@ -1,13 +1,13 @@
 const IMAGES = [
   "/assets/testimonial1.png",
+  "/assets/testimonial2.png",
+  "/assets/testimonial3.png",
   "/assets/testimonial1.png",
+  "/assets/testimonial2.png",
+  "/assets/testimonial3.png",
   "/assets/testimonial1.png",
-  "/assets/testimonial1.png",
-  "/assets/testimonial1.png",
-  "/assets/testimonial1.png",
-  "/assets/testimonial1.png",
-  "/assets/testimonial1.png",
-  "/assets/testimonial1.png",
+  "/assets/testimonial2.png",
+  "/assets/testimonial3.png",
   "/assets/testimonial1.png",
 ];
 

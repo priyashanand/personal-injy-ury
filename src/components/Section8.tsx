@@ -77,7 +77,7 @@ const Section8: React.FC = () => {
   };
 
   return (
-    <section className="py-16 pb-6 sm:py-20 sm:pb-28 md:px-48 bg-white">
+    <section className="py-16 pb-6  sm:py-28 sm:pt-32 sm:pb-28 md:px-48 bg-white">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className=" mx-auto pl-5 sm:pl-0">
           {/* Section Title */}
