@@ -3,19 +3,24 @@ import { ChevronLeft, ChevronRight } from "lucide-react"; // Optional: lucide ic
 
 const cards = [
   {
-    imgMain: "/assets/section4img3.png",
-    title: "Instant Followup",
-    desc: "Effortlessly gather client information with dynamic, real-time forms that adapt to responses for accuracy"
-  },
-  {
-    imgMain: "/assets/section4img4.png",
-    title: "Instant Followup",
-    desc: "Streamline your intake process with AI, efficiently gathering case details, screen leads, and directing them to your team."
+    imgMain: "/assets/section4img1.png",
+    title: "Intake Automation",
+    desc: "Automatically onboard qualified clients with smart AI forms and medical triage."
   },
   {
     imgMain: "/assets/section4img2.png",
-    title: "Instant Followup",
-    desc: "Switch on smart workflows to handle tasks, follow-ups, document requests, and lien coordination—automatically."
+    title: "Demand Package Builder",
+    desc: "Quickly auto-generate polished demand letters from medical records and case data. Reduce hours of manual drafting."
+  },
+  {
+    imgMain: "/assets/section4img3.png",
+    title: "Settlement Calculator",
+    desc: "AI-backed valuation engine gives real-time case worth estimates based on injury, treatment, and jurisdiction."
+  },
+  {
+    imgMain: "/assets/section4img4.png",
+    title: "Lien Detection",
+    desc: "Automatically manage negotiation tasks, and track settlements."
   }
 ];
 

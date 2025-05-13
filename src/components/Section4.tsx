@@ -30,7 +30,7 @@ const Section4: React.FC = () => {
                 <h3 className="text-[32px] font-semibold text-gray-900 mb-2 ">Intake Automation</h3>
                 <p className="text-gray-600 text-[20px] mb-4 pb-4">Automatically onboard qualified clients with smart AI forms and medical triage.</p>
               </div>
-              <div className="flex w-full h-full justify-center items-center  bg-gray-200 rounded-3xl px-10" ><img src="/assets/section4img1.png" alt="" /></div>
+              <div className="flex w-full h-full justify-center items-center  bg-[#EAEAFF] rounded-3xl px-10" ><img src="/assets/section4img1.png" alt="" /></div>
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-center gap-6 mb-6 w-[60%] ">
@@ -40,7 +40,7 @@ const Section4: React.FC = () => {
                 <h3 className="text-[32px] font-semibold text-gray-900 mb-2">Demand Package Builder</h3>
                 <p className="text-gray-600 text-[20px] mb-4 pb-4">Quickly auto-generate polished demand letters from medical records and case data. Reduce hours of manual drafting.</p>
               </div>
-              <div className=" flex w-full h-full  justify-center  bg-gray-200 rounded-3xl py-24 px-10" >
+              <div className=" flex w-full h-full  justify-center  bg-[#EAEAFF] rounded-3xl py-24 px-10" >
                 <div>
                   <img src="/assets/section4img2.png" alt="" className=' '/>
                 </div>
@@ -58,7 +58,7 @@ const Section4: React.FC = () => {
                 <h3 className="text-[32px] font-semibold text-gray-900 mb-2">Settlement Calculator</h3>
                 <p className="text-gray-600 text-[20px] mb-4 pb-4">AI-backed valuation engine gives real-time case worth estimates based on injury, treatment, and jurisdiction.</p>
               </div>
-              <div className=" flex w-full h-full  justify-center  bg-gray-200 rounded-3xl py-24 px-10" >
+              <div className=" flex w-full h-full  justify-center  bg-[#EAEAFF] rounded-3xl py-24 px-10" >
                 <div>
                   <img src="/assets/section4img3.png" alt="" className=' '/>
                 </div>
@@ -72,7 +72,7 @@ const Section4: React.FC = () => {
                 <h3 className="text-[32px] font-semibold text-gray-900 mb-2">Lien Detection</h3>
                 <p className="text-gray-600 text-[20px] mb-4 pb-4">Automatically manage negotiation tasks, and track settlements.</p>
               </div>
-              <div className="flex w-full h-full justify-center items-center  bg-gray-200 rounded-3xl px-10" ><img src="/assets/section4img4.png" alt="" /></div>
+              <div className="flex w-full h-full justify-center items-center  bg-[#EAEAFF] rounded-3xl px-10" ><img src="/assets/section4img4.png" alt="" /></div>
             </div>
           </div>
           
